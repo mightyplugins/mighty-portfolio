@@ -1,0 +1,7 @@
+[submodule "Framework"]
+	path = framework
+	url = https://github.com/CantoThemes/CantoFramework.git
+
+[submodule "MetaBox"]
+	path = metabox
+	url = https://github.com/CantoThemes/CantoMetabox.git

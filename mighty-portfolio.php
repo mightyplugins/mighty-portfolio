@@ -8,7 +8,7 @@
  *  Author URI: http://mightyplugins.com/
  *  Text Domain: mighty-portfolio
  *  Domain Path: /languages/
- *  License:     GPL-3.0+
+ *  License: GPLv2 or later
  *  License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  */
 

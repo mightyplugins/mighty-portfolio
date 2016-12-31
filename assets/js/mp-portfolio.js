@@ -21,18 +21,22 @@
 		
 	});
 
-	var grid = $('.mpp-items').isotope({
-		itemSelector: '.mpp-item',
+	$(window).load(function () {
+		var grid = $('.mpp-items').isotope({
+			itemSelector: '.mpp-item',
+		});
+
+		$('.mpp-filters a').on('click', function (e) {
+			e.preventDefault();
+
+			var filterData = $(this).data('filter');
+
+			$('.mpp-filters a.active').removeClass('active');
+			$(this).addClass('active');
+
+			grid.isotope({ filter: filterData })
+		});
 	});
 
-	$('.mpp-filters a').on('click', function (e) {
-		e.preventDefault();
-
-		var filterData = $(this).data('filter');
-
-		$('.mpp-filters a.active').removeClass('active');
-		$(this).addClass('active');
-
-		grid.isotope({ filter: filterData })
-	});
+	
 })(jQuery);

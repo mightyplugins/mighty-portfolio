@@ -4,7 +4,7 @@
  *  Plugin URL: http://mightyplugins.com/
  *  Description: Canto Clients simple and effective clients shortcode.
  *  Author: MightyPlugins
- *  Version: 1.0
+ *  Version: 1.0.1
  *  Author URI: http://mightyplugins.com/
  *  Text Domain: mighty-portfolio
  *  Domain Path: /languages/
@@ -52,6 +52,7 @@ if (!class_exists('MP_Portfolio')):
 			add_action( 'admin_enqueue_scripts', array($this, 'enqueue_admin_assets') );
 			add_action( 'wp_enqueue_scripts', array($this, 'enqueue_front_end_assets') );
 			add_action( 'init', array($this, 'add_image_sizes') );
+			add_action( 'init', array($this, 'load_textdomain') );
 
 
 			add_filter( 'the_content', array($this, 'portfolio_content') );
@@ -76,6 +77,10 @@ if (!class_exists('MP_Portfolio')):
 		{
 			add_image_size( 'mp_gallery_thumb', 300, 300, true );
 			add_image_size( 'mp_portfolio_banner', 1200, 600, true );
+		}
+
+		function load_textdomain() {
+			load_plugin_textdomain( 'mighty-portfolio', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 		}
 
 		public function portfolio_content( $content )

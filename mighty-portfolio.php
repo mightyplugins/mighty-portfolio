@@ -4,7 +4,7 @@
  *  Plugin URL: http://mightyplugins.com/
  *  Description: Canto Clients simple and effective clients shortcode.
  *  Author: MightyPlugins
- *  Version: 1.0.1
+ *  Version: 1.0.2
  *  Author URI: http://mightyplugins.com/
  *  Text Domain: mighty-portfolio
  *  Domain Path: /languages/

@@ -14,6 +14,9 @@ Portfolio showcase plugin.
 
 Mighty Portfolio is the best portfolio showcase plugin. This plugin will help you to showcase your all completed and current projects.
 
+= Show Portfolio Gallery =
+`[mp_portfolio count="12" filters_align="left" show_filters="yes" show_paginate="yes"]`
+
 == Installation ==
 
 1. Upload the entire `mighty-portfolio` folder to the `/wp-content/plugins/` directory.
@@ -27,6 +30,14 @@ Comming Soon...
 
 
 == Changelog ==
+
+= 1.0.2 =
+* `filters_align` attribute added to `mp_portfolio` shortcode
+* `show_filters` attribute added to `mp_portfolio` shortcode
+* `show_paginate` attribute added to `mp_portfolio` shortcode
+
+= 1.0.1 =
+* Textdomain loaded
 
 = 1.0 =
 

@@ -30,6 +30,8 @@ Comming Soon...
 
 
 == Changelog ==
+= 1.0.2 =
+* Metabox framework update
 
 = 1.0.2 =
 * `filters_align` attribute added to `mp_portfolio` shortcode

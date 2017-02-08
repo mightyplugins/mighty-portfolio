@@ -30,7 +30,7 @@ Comming Soon...
 
 
 == Changelog ==
-= 1.0.2 =
+= 1.0.3 =
 * Metabox framework update
 
 = 1.0.2 =
